@@ -8,7 +8,7 @@
     <TransitionFadeSlide>
       <TheHeaderBanner :key="$route.path">
         <slot>
-          <h1 v-if="showTitle">
+          <h1 v-if="showTitle" class="header-slot-h1">
             {{ $page.frontmatter.title || $page.title || $site.title || '' }}
           </h1>
         </slot>
@@ -99,6 +99,7 @@ export default {
   methods: {
     // in computed, geopattern will always be computed
     // in methods, geopattern won't be called with useGeo = false
+    // Generating Dynamic Background Map with JavaScript
     gpImg () {
       return this.backgroundConfig.useGeo !== false
         ? GeoPattern.generate(this.gpString(), {
@@ -125,4 +126,7 @@ export default {
 .header
   background-color $headerColor
   transition all 0.5s ease-in-out
+
+.header-slot-h1 // 设置字体颜色
+  color #1e90ff
 </style>

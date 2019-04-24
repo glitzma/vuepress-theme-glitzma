@@ -1,8 +1,8 @@
 {
   "name": "vuepress-theme-glitzma",
-  "version": "1.0.0-alpha.35",
+  "version": "1.0.0-alpha.01",
   "description": "Vuepress theme - glitzma",
-  "author": "glitzma <meteor.lxy@foxmail.com>",
+  "author": "glitzma <glitterma@gmail.com>",
   "license": "MIT",
   "main": "lib/index.js",
   "keywords": [

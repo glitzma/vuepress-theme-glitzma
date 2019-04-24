@@ -76,6 +76,6 @@ export default {
 
 .fade-slide-x-enter
 .fade-slide-x-leave-to
-  transform: translateX(10px)
+  transform: translateX(20px)
   opacity: 0
 </style>

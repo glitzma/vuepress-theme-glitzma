@@ -43,8 +43,8 @@ module.exports = {
   theme: path.resolve(__dirname, '../../lib'),
 
   themeConfig: {
-    lang: require(path.resolve(__dirname, '../../lib/langs/en-US')),
-    // lang: require(path.resolve(__dirname, '../../lib/langs/zh-CN')),
+    // lang: require(path.resolve(__dirname, '../../lib/langs/en-US')),
+    lang: require(path.resolve(__dirname, '../../lib/langs/zh-CN')),
     // lang: require(path.resolve(__dirname, '../../lib/langs/pt-BR')),
 
     personalInfo: {
@@ -74,8 +74,8 @@ module.exports = {
           link: 'https://twitter.com/glitzma_cn',
         },
         weibo: {
-          account: '@焦炭君_Meteor',
-          link: 'https://weibo.com/u/2039655434',
+          account: 'glitzma',
+          link: 'https://weibo.com/u/222222222',
         },
         zhihu: {
           account: 'glitzma.cn',
@@ -114,7 +114,12 @@ module.exports = {
 
     header: {
       background: {
-        // url: '/assets/img/bg.jpg',
+        url: ['/assets/img/header-image-01.jpg',
+          '/assets/img/header-image-02.jpg',
+          '/assets/img/header-image-03.jpg',
+          '/assets/img/header-image-04.jpg',
+          '/assets/img/header-image-05.jpg'
+        ],
         useGeo: true,
       },
       showTitle: true,
@@ -132,8 +137,8 @@ module.exports = {
     comments: {
       owner: 'glitzma',
       repo: 'vuepress-theme-glitzma',
-      clientId: 'cbda894952ba70c00666',
-      clientSecret: '1ade785ca693bf3092be5e5338720d5ee43672b7',
+      clientId: '8a8132b8a43c18b5ab7b',
+      clientSecret: '6ebf155c3b370929a74abff4532d06cc038c9e24',
       autoCreateIssue: false,
     },
 
