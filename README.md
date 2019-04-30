@@ -11,7 +11,7 @@
 
 :heart: glitzma theme for [Vuepress](https://vuepress.vuejs.org)
 
-:book: [Live Demo and Docs](https://vuepress-theme-glitzma.glitzma.cn)
+:book: [Live Demo and Docs](http://mamingjuan.cn)
 
 ## Installation
 
