@@ -8,3 +8,9 @@ node_modules/
 
 .temp/
 docs-dist/
+
+.DS_Store
+
+yarn.lock
+
+.idea/workspace.xml
