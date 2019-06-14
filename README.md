@@ -1,7 +1,5 @@
 > This branch is for Vuepress `1.x`
 
-> For Vuepress `0.x`, see branch [0.x](https://github.com/glitzma/vuepress-theme-glitzma/tree/0.x)
-
 # Vuepress Theme - glitzma
 
 [![](https://img.shields.io/circleci/project/github/glitzma/vuepress-theme-glitzma/master.svg?style=flat)](https://circleci.com/gh/glitzma/vuepress-theme-glitzma)
@@ -17,7 +15,5 @@
 
 ```sh
 # for vuepress 1.x
-npm install vuepress-theme-glitzma@next
-# for vuepress 0.x
 npm install vuepress-theme-glitzma
 ```

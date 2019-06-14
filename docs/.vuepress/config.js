@@ -13,11 +13,16 @@ module.exports = {
 
   evergreen: true,
 
-  plugins: [
-    ['@vuepress/google-analytics', {
-      'ga': 'UA-132770851-2',
-    }],
-  ],
+  // plugins: [
+  //   ['@vuepress/google-analytics', {
+  //     'ga': 'UA-132770851-2',
+  //   }],
+  // ],
+
+  markdown: {
+    lineNumbers: false,
+    anchor: { permalink: false },
+  },
 
   chainWebpack: (config, isServer) => {
     if (isServer === false) {
@@ -118,11 +123,11 @@ module.exports = {
           '/assets/img/header-image-02.jpg',
           '/assets/img/header-image-03.jpg',
           '/assets/img/header-image-04.jpg',
-          '/assets/img/header-image-05.jpg'
+          '/assets/img/header-image-05.jpg',
         ],
         useGeo: true,
       },
-      showTitle: true,
+      showTitle: false,
     },
 
     lastUpdated: true,
@@ -143,7 +148,7 @@ module.exports = {
     },
 
     pagination: {
-      perPage: 5,
+      perPage: 10,
     },
   },
 }

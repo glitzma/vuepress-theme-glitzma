@@ -1,6 +1,6 @@
 {
   "name": "vuepress-theme-glitzma",
-  "version": "1.0.0-alpha.10",
+  "version": "1.0.0-alpha.101",
   "description": "A theme of vuepress blog",
   "author": "glitzma <glitterma@gmail.com>",
   "license": "MIT",
@@ -52,7 +52,7 @@
     "vuepress-plugin-container": "^1.1.1",
     "vuepress-plugin-nprogress": "^1.1.0",
     "vuepress-plugin-smooth-scroll": "^0.0.3",
-    "vuepress-plugin-table-of-contents": "^1.0.0",
+    "vuepress-plugin-table-of-contents": "^1.0.1",
     "vuepress-plugin-zooming": "^1.0.0"
   },
   "devDependencies": {

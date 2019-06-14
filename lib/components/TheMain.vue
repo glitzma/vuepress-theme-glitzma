@@ -107,4 +107,11 @@ export default {
         width 100%
       .aside
         display none
+  </style>
+<style lang="stylus">
+.container
+  .post-content
+    h1,h2,h3,h4,h5,h6
+      margin-top: -3.1rem;
+      padding-top: 4.6rem;
 </style>
