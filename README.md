@@ -17,3 +17,7 @@
 # for vuepress 1.x
 npm install vuepress-theme-glitzma
 ```
+
+```$xslt
+npm publish --tag next // 发布后带上@next
+```

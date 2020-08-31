@@ -57,7 +57,7 @@ module.exports = {
       description: 'Happy Coding<br/>Happy Life',
       email: 'glitteringma@gmail.com',
       location: 'Beijing City, China',
-      organization: 'HaoWeiLai',
+      organization: 'Secrecy',
 
       avatar: 'https://blog.mamingjuan.cn/assets/images/favicon-16.ico',
 

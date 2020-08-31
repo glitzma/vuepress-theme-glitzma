@@ -26,7 +26,8 @@
 </template>
 
 <script>
-import PostMeta from '../components/PostMeta.vue'
+// import PostMeta from '../components/PostMeta.vue'
+const PostMeta = r => require.ensure([], () => r(require('../components/PostMeta.vue')))
 
 export default {
   name: 'Post',

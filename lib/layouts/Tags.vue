@@ -18,7 +18,8 @@
 </template>
 
 <script>
-import IconTag from '../components/IconTag.vue'
+// import IconTag from '../components/IconTag.vue'
+const IconTag = r => require.ensure([], () => r(require('../components/IconTag.vue')))
 
 export default {
   name: 'Tags',
