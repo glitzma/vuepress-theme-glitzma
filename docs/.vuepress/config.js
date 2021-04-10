@@ -63,7 +63,7 @@ module.exports = {
       location: 'Beijing City, China',
       organization: 'Secrecy',
 
-      avatar: 'https://blog.mamingjuan.cn/assets/images/favicon-16.ico',
+      avatar: 'https://www.mamingjuan.cn/assets/img/avatar.jpeg',
 
       sns: {
         github: {

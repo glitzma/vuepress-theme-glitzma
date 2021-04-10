@@ -13,14 +13,6 @@ header-title: true
 vssue-id: 2
 ---
 
-关于标题栏设置的详细教程
-
-<!-- more -->
-
-> 感谢 [@GalAster](https://github.com/GalAster) 帮助完成这篇文章。
-
-![](/assets/img/header-introduce.png)
-
 博客的标题栏分为这样几个部分：
 
 <TOC />

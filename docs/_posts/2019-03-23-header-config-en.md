@@ -14,12 +14,6 @@ vssue-id: 10
 
 Detailed guide for header config
 
-<!-- more -->
-
-> Thanks to [@GalAster](https://github.com/GalAster) for contributions to this post.
-
-![](/assets/img/header-introduce.png)
-
 The header bar of the blog can be divided into following sections:
 
 <TOC />

@@ -123,10 +123,10 @@ module.exports = {
       email: 'meteor.lxy@foxmail.com',
 
       // Your location
-      location: 'Xi\'an City, China',
+      location: 'Beijing City, China',
 
       // Your organization
-      organization: 'Xi\'an Jiao Tong University',
+      organization: 'Beijing',
 
       // Your avatar image
       // Set to external link

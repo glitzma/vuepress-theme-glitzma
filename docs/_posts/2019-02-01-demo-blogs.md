@@ -23,9 +23,4 @@ List of blogs that use this theme.
 ## 中文博客
 
 - [@glitzma](https://www.glitzma.cn)
-- [@yuchanns](https://www.yuchanns.xyz)
-- [@W-Qing](https://www.sunburst.wang)
 
-## Portuguese Blogs
-
-- [@tgmti](https://tgmti.github.io/advpl/)
