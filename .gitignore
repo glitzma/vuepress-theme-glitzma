@@ -13,4 +13,6 @@ docs-dist/
 
 yarn.lock
 
+package-lock.json
+
 .idea/workspace.xml
