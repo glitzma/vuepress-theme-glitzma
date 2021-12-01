@@ -11,10 +11,10 @@
 </template>
 
 <script>
-// import PostsFilter from '../components/PostsFilter.vue'
-// import PostsList from '../components/PostsList.vue'
-const PostsFilter = r => require.ensure([], () => r(require('../components/PostsFilter.vue')))
-const PostsList = r => require.ensure([], () => r(require('../components/PostsList.vue')))
+import PostsFilter from '../components/PostsFilter.vue'
+import PostsList from '../components/PostsList.vue'
+// const PostsFilter = r => require.ensure([], () => r(require('../components/PostsFilter.vue')))
+// const PostsList = r => require.ensure([], () => r(require('../components/PostsList.vue')))
 
 export default {
   name: 'Tag',

@@ -15,17 +15,13 @@ module.exports = {
 
   // plugins: [
   //   ['@vuepress/google-analytics', {
-  //     'ga': 'UA-132770851-2',
+  //     'ga': 'UA-132770001-2',
   //   }],
   // ],
 
   markdown: {
     lineNumbers: false,
     anchor: { permalink: false },
-    extendMarkdown: md => {
-      // 使用更多的 markdown-it 插件!
-      md.use(require('markdown-it-textual-uml'))
-    },
   },
 
   chainWebpack: (config, isServer) => {
@@ -57,7 +53,8 @@ module.exports = {
     // lang: require(path.resolve(__dirname, '../../lib/langs/pt-BR')),
 
     personalInfo: {
-      nickname: 'glitzma',
+      nickname: 'mamingjuan',
+      realname: '马明娟',
       description: 'Happy Coding<br/>Happy Life',
       email: 'glitteringma@gmail.com',
       location: 'Beijing City, China',

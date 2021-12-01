@@ -18,16 +18,15 @@
       </a>
     </p>
 
-    <p>
-      <span>Powered by </span>
-
-      <a
-        href="https://vuepress.vuejs.org"
-        target="_blank"
-      >
-        Vuepress
-      </a>
-    </p>
+    <div class="copyright">
+      © 2014 –
+      <span itemprop="copyrightYear">2021</span>
+      <span class="post-meta-divider">|</span>
+      <span
+        class="author"
+        itemprop="copyrightHolder"
+      >{{ $themeConfig.personalInfo.nickname }}</span>
+    </div>
   </footer>
 </template>
 
