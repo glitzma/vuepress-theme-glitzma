@@ -18,19 +18,18 @@
 
     <section class="post-links">
       <RouterLink
-        v-if="prevPost"
-        :to="prevPost.path"
-        class="post-link"
-      >
-        {{ `${$themeConfig.lang.prevPost} : ${prevPost.title}` }}
-      </RouterLink>
-
-      <RouterLink
         v-if="nextPost"
         :to="nextPost.path"
         class="post-link"
       >
         {{ `${$themeConfig.lang.nextPost} : ${nextPost.title}` }}
+      </RouterLink>
+      <RouterLink
+        v-if="prevPost"
+        :to="prevPost.path"
+        class="post-link"
+      >
+        {{ `${$themeConfig.lang.prevPost} : ${prevPost.title}` }}
       </RouterLink>
     </section>
   </section>
