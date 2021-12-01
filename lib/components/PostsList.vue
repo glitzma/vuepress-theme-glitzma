@@ -84,7 +84,7 @@ export default {
 
       const pageSort = (p1, p2) => {
         if (p1.top === p2.top) {
-          return compareDesc(p1.createdAt, p2.createdAt)
+          return compareDesc(p1.lastUpdated, p2.lastUpdated)
         }
         if (p1.top && p2.top) {
           return p1.top - p2.top

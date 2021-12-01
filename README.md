@@ -11,6 +11,13 @@
 
 :book: [Live Demo and Docs](https://www.mamingjuan.cn)
 
+## Update record
+### V1.0.1
+Bug Fixes
+- Style repair
+- Change the creation time of the list to the modification time
+
+
 ## Installation
 
 ```sh
