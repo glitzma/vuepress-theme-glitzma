@@ -10,6 +10,7 @@ vssue-id: 10
 
 Guide of `vuepress-theme-glitzma`.
 
+![](https://img.shields.io/npm/v/vuepress-theme-glitzma/lastest.svg?style=flat)
 ![](https://img.shields.io/npm/v/vuepress-theme-glitzma/next.svg?style=flat)
 ![](https://img.shields.io/github/license/glitzma/vuepress-theme-glitzma.svg?style=flat)
 
