@@ -56,6 +56,7 @@ module.exports = {
       nickname: 'mamingjuan',
       realname: '马明娟',
       description: 'Happy Coding<br/>Happy Life',
+      copyrightYear: '2023',
       email: 'glitteringma@gmail.com',
       location: 'Beijing City, China',
       organization: 'Secrecy',

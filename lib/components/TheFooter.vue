@@ -20,7 +20,7 @@
 
     <div class="copyright">
       © 2014 –
-      <span itemprop="copyrightYear">2021</span>
+      <span itemprop="copyrightYear">{{ $themeConfig.personalInfo.copyrightYear }}</span>
       <span class="post-meta-divider">|</span>
       <span
         class="author"
