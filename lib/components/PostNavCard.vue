@@ -59,6 +59,7 @@ export default {
         'position': this.fixed ? 'fixed' : 'relative',
         'top': this.fixed ? `${this.navbarHeight}px` : 0,
         'width': `${this.width}px`,
+        'height': `calc(100vh - ${this.navbarHeight + 40}px)`,
       }
     },
 
@@ -104,6 +105,10 @@ export default {
 <style lang="stylus">
 @require '~@theme/styles/variables'
 
+.post-nav-contents{
+  height: 100%;
+  overflow: scroll;
+}
 .post-nav-card
   padding 1rem
   color $grayTextColor

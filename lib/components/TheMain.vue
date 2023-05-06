@@ -16,7 +16,6 @@
 
       <aside class="aside">
         <InfoCard class="main-div" />
-
         <PostNavCard
           v-if="$page.type === 'post'"
           class="main-div"
